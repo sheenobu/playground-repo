@@ -1,0 +1,14 @@
+{
+  "name": "kboard",
+  "version": "0.0.1",
+  "description": "kboard is a simple kanban board written in HTML5 and React.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-connect": "~0.6.0"
+  }
+}

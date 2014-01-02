@@ -1,0 +1,33 @@
+{
+  "name": "kboard",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sheenobu/playground-repo",
+  "authors": [
+    "Sheena Artrip <sheena.artrip@gmail.com>"
+  ],
+  "description": "Simple HTML5 kanban board",
+  "keywords": [
+    "html5",
+    "kanban",
+    "board",
+    "developer"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.8.0",
+    "requirejs": "~2.1.9",
+    "modernizr": "~2.7.1",
+    "require-jsx": "*",
+    "jquery": "~2.0.3",
+    "bootstrap": "~3.0.3",
+    "jquery-ui": "~1.10.3"
+  }
+}
