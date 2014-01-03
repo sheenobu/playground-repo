@@ -1,5 +1,5 @@
 {
-  "name": "kboard",
+  "name": "kboard-html5",
   "version": "0.0.1",
   "description": "kboard is a simple kanban board written in HTML5 and React.",
   "scripts": {
