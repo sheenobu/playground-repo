@@ -20,7 +20,7 @@ function fatal() {
 if [ -r ./data/jenkins.war ]; then
   checkHash && echo "Hash succeeded, skipping download" || ( download && checkHash || fatal ) 
 else
-  // try twice
+  # try twice
   download && checkHash || (download && checkhash || fatal)
 fi
 
