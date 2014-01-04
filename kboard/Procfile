@@ -1,0 +1,2 @@
+html5: grunt --gruntfile kboard-html5/Gruntfile.js --base kboard-html5 connect
+proxy: grunt --gruntfile kboard-dev/Gruntfile.js --base kboard-dev proxy

@@ -1,0 +1,14 @@
+{
+  "name": "kboard-dev",
+  "version": "0.0.1",
+  "description": "kboard-dev is a group of dev tools for kboard",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "http-proxy": "~0.10.4"
+  }
+}
