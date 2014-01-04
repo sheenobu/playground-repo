@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-define(['react', 'jquery', 'jsx!js/item'], function(React, $, Item) {
+define(['react', 'jquery', 'jsx!js/board/item'], function(React, $, Item) {
   return React.createClass({
     componentDidMount: function() {
       $('.slist').sortable({

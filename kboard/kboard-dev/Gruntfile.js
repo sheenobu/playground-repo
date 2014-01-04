@@ -1,8 +1,19 @@
 
 module.exports = function(grunt) {
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json')
+    pkg: grunt.file.readJSON('package.json'),
+    connect: {
+      server: {
+        options: {
+          port: 9002,
+          base: 'api-stubs/',
+          keepalive: true
+        }
+      }
+    }
   });
+
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   var options = {
     pathnameOnly: true,
@@ -17,4 +28,5 @@ module.exports = function(grunt) {
     httpProxy.createServer(options).listen(8000);
     var done = this.async();
   });
+
 }

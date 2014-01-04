@@ -9,6 +9,7 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.2",
-    "http-proxy": "~0.10.4"
+    "http-proxy": "~0.10.4",
+    "grunt-contrib-connect": "~0.6.0"
   }
 }

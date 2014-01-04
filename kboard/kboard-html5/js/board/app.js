@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-define(['react', 'jquery', 'jsx!js/column'], function(React, $, Column) {
+define(['react', 'jquery', 'jsx!js/board/column'], function(React, $, Column) {
   return React.createClass({
     render: function() {
       var columnNodes = this.props.data.columns.map(function(column) {
