@@ -5,7 +5,7 @@ requirejs.config({
     "jquery-ui":"bower_components/jquery-ui/ui/jquery-ui",
     "react": "bower_components/react/react.min",
     "jsx":"bower_components/require-jsx/jsx",
-    "JSXTransformer":"http://dragon.ak.fbcdn.net/hphotos-ak-prn1/851547_221914424655081_22271_n",
+    "JSXTransformer":"//cdnjs.cloudflare.com/ajax/libs/react/0.8.0/JSXTransformer",
     "kboard.client": '/api/client'
   },
   "shim": {
